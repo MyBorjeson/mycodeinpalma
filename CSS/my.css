@@ -59,12 +59,6 @@ a:hover {
 }
 .form-style-5 input[type="text"],
 .form-style-5 input[type="radio"],
-.form-style-5 input[type="datetime"],
-.form-style-5 input[type="email"],
-.form-style-5 input[type="number"],
-.form-style-5 input[type="search"],
-.form-style-5 input[type="time"],
-.form-style-5 input[type="url"],
 .form-style-5 textarea,
 .form-style-5 select {
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -88,12 +82,7 @@ a:hover {
 }
 .form-style-5 input[type="text"]:focus,
 .form-style-5 input[type="radio"]:focus,
-.form-style-5 input[type="datetime"]:focus,
-.form-style-5 input[type="email"]:focus,
-.form-style-5 input[type="number"]:focus,
-.form-style-5 input[type="search"]:focus,
-.form-style-5 input[type="time"]:focus,
-.form-style-5 input[type="url"]:focus,
+
 .form-style-5 textarea:focus,
 .form-style-5 select:focus{
     background: #d2d9dd;
@@ -139,7 +128,9 @@ a:hover {
     background: #109177;
 }
 .mainbody
-{color: black;
+{
+    margin: 0 auto;
+    width: 100 %;
 }
 
 </style>
